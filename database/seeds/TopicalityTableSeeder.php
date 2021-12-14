@@ -11,6 +11,6 @@ class TopicalityTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Topicality::class, 30)->create();
+        $top = factory(App\Topicality::class, 50)->create();
     }
 }
